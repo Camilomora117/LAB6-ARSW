@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blueprints</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/webjars/jquery/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet"
+          href="/webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+</head>
+<body>
+<body onLoad="app.init()">
+<div class="main_container">
+    <div class="firstcontainer">
+        <h2>Heading 1</h2>
+        <div class="form">
+            <span>Author</span>
+            <input id="search_author" type="text" placeholder="Author Name">
+            <button id="get_blueprint_btn">Get blueprints</button>
+        </div>
+    </div>
+    <div class="secondcontainer">
+        <div class="table_points">
+            <h2></h2>
+            <div id="bp_table"></div>
+            <h3 id="score"></h3>
+        </div>
+        <div class="bp_container">
+            <button id="createbp">Create new blueprint</button>
+            <h3></h3>
+            <canvas id="mycanvas" width="400" height="400" style="border:1px solid black;">
+            </canvas>
+            <div class="btn-options-bp">
+                <button id="save_update_btn">Save/Update</button>
+                <button>Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
