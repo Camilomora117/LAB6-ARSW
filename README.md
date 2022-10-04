@@ -126,15 +126,28 @@ En el index.html:
 
 8. A la página, agregue un [elemento de tipo Canvas](https://www.w3schools.com/html/html5_canvas.asp), con su respectivo identificador. Haga que sus dimensiones no sean demasiado grandes para dejar espacio para los otros componentes, pero lo suficiente para poder 'dibujar' los planos.
 
+![image](https://user-images.githubusercontent.com/25957863/193948907-403ceb41-5468-46c0-b17f-03843b834414.png)
+    
 9. Al módulo app.js agregue una operación que, dado el nombre de un autor, y el nombre de uno de sus planos dados como parámetros, haciendo uso del método getBlueprintsByNameAndAuthor de apimock.js y de una función _callback_:
     * Consulte los puntos del plano correspondiente, y con los mismos dibuje consectivamente segmentos de recta, haciendo uso [de los elementos HTML5 (Canvas, 2DContext, etc) disponibles](https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_path)* Actualice con jQuery el campo <div> donde se muestra el nombre del plano que se está dibujando (si dicho campo no existe, agruéguelo al DOM).
-
+    
 10. Verifique que la aplicación ahora, además de mostrar el listado de los planos de un autor, permita seleccionar uno de éstos y graficarlo. Para esto, haga que en las filas generadas para el punto 5 incluyan en la última columna un botón con su evento de clic asociado a la operación hecha anteriormente (enviándo como parámetro los nombres correspondientes).
+    
+![image](https://user-images.githubusercontent.com/25957863/193949070-460494d0-0f07-4d52-9524-c27cec7b86a3.png)
 
-11. Verifique que la aplicación ahora permita: consultar los planos de un auto y graficar aquel que se seleccione.
+11. Verifique que la aplicación ahora permita: consultar los planos de un autor y graficar aquel que se seleccione.
 
+![image](https://user-images.githubusercontent.com/25957863/193949119-926ea453-7a90-4b65-9864-29bae670ddc2.png)
+    
 12. Una vez funcione la aplicación (sólo front-end), haga un módulo (llámelo 'apiclient') que tenga las mismas operaciones del 'apimock', pero que para las mismas use datos reales consultados del API REST. Para lo anterior revise [cómo hacer peticiones GET con jQuery](https://api.jquery.com/jquery.get/), y cómo se maneja el esquema de _callbacks_ en este contexto.
 
+![image](https://user-images.githubusercontent.com/25957863/193949187-4ad798d2-f62a-4157-b23f-36b0ffc6ac2a.png)
+    
 13. Modifique el código de app.js de manera que sea posible cambiar entre el 'apimock' y el 'apiclient' con sólo una línea de código.
 
 14. Revise la [documentación y ejemplos de los estilos de Bootstrap](https://v4-alpha.getbootstrap.com/examples/) (ya incluidos en el ejercicio), agregue los elementos necesarios a la página para que sea más vistosa, y más cercana al mock dado al inicio del enunciado.
+    
+Desde el inicio de le comenzó a dar estilo a la página por esto en los pantallazos adjuntados se vé adradable y vistosa para los usuarios. El cógido css usado fue:
+    
+![image](https://user-images.githubusercontent.com/25957863/193949325-020808d3-1884-482c-8076-40e55316d520.png)
+
