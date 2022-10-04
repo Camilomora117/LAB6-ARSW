@@ -93,19 +93,25 @@
 Método implementado en módulo 'app.js':
 
 ![image](https://user-images.githubusercontent.com/25957863/193947878-2f1cae18-fd13-4ae4-a4ac-2924fed536ec.png)
+    
 
     * Tome el listado de los planos, y le aplique una función 'map' que convierta sus elementos a objetos con sólo el nombre y el número de puntos.
+    
     
 ![image](https://user-images.githubusercontent.com/25957863/193948040-a1c500fb-c75c-4552-beca-95f0054d1790.png)
 
     * Sobre el listado resultante, haga otro 'map', que tome cada uno de estos elementos, y a través de jQuery agregue un elemento \<tr\> (con los respectvos \<td\>) a la tabla creada en el punto 4. Tenga en cuenta los [selectores de jQuery](https://www.w3schools.com/JQuery/jquery_ref_selectors.asp) y [los tutoriales disponibles en línea](https://www.tutorialrepublic.com/codelab.php?topic=faq&file=jquery-append-and-remove-table-row-dynamically). Por ahora no agregue botones a las filas generadas.
 
+    
 ![image](https://user-images.githubusercontent.com/25957863/193948156-3b8d56b5-1376-49cd-b164-3ec5d5df84d9.png)
 
+    
     * Sobre cualquiera de los dos listados (el original, o el transformado mediante 'map'), aplique un 'reduce' que calcule el número de puntos. Con este valor, use jQuery para actualizar el campo correspondiente dentro del DOM.
 
+    
 ![image](https://user-images.githubusercontent.com/25957863/193948240-032f6619-7e79-4f1b-8409-92f1a1a01642.png)
 
+    
 5. Asocie la operación antes creada (la de app.js) al evento 'on-click' del botón de consulta de la página.
 
 En el index.html:
