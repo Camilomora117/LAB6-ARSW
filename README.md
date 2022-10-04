@@ -145,6 +145,8 @@ En el index.html:
     
 13. Modifique el código de app.js de manera que sea posible cambiar entre el 'apimock' y el 'apiclient' con sólo una línea de código.
 
+![image](https://user-images.githubusercontent.com/25957863/193949455-7e4cd11a-1e44-4a40-840c-9300627938d0.png)
+    
 14. Revise la [documentación y ejemplos de los estilos de Bootstrap](https://v4-alpha.getbootstrap.com/examples/) (ya incluidos en el ejercicio), agregue los elementos necesarios a la página para que sea más vistosa, y más cercana al mock dado al inicio del enunciado.
     
 Desde el inicio de le comenzó a dar estilo a la página por esto en los pantallazos adjuntados se vé adradable y vistosa para los usuarios. El cógido css usado fue:
